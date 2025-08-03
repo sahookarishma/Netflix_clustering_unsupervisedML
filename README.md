@@ -7,11 +7,11 @@ netfix_clustering.ipynb      # Main notebook performing clustering and visualiza
 README.md 
 
 📌 Key Steps
-Problem Statement
+1. Problem Statement
 
 To group Netflix titles into clusters based on metadata and description content.
 
-Know Your Data
+2. Know Your Data
 
 Load and examine the dataset to understand columns like type, title, cast, director, description, listed_in, country, etc.
 
@@ -19,29 +19,29 @@ Understanding Your Variables
 
 Feature selection and analysis of categorical/textual columns.
 
-Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA)
 
 Visualizations and statistics on content ratings, genres, and country-wise distribution.
 
-Data Cleaning
+4. Data Cleaning
 
 Handling missing values, formatting inconsistencies, and duplicates.
 
-Textual Data Preprocessing
+5. Textual Data Preprocessing
 
 NLP preprocessing: tokenization, stopword removal, lemmatization of the description column.
 
-Model Implementation
+6.  Implementation
 
 Dimensionality reduction using TF-IDF + Truncated SVD
 
 Clustering using KMeans, cluster visualization with word clouds and PCA.
 
-Recommendation System (Optional)
+7. Recommendation System (Optional)
 
 Based on cluster similarity (if implemented).
 
-Conclusion
+8. Conclusion
 
 Interpretation of clusters and key takeaways.
 
